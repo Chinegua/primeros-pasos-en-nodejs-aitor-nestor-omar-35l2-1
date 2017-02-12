@@ -36,7 +36,7 @@
     "gitbook-cli": "^0.3.4",
     "gitbook": "^2.1.0"
   },
-  "engines":{
+  "engines": {
     "node":"7.1.0"
   },
     "dependencies": {
