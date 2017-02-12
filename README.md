@@ -3,10 +3,16 @@
 
 # Versión en IAAS
 
+El concepto de Infraestructura como Servicio (IaaS, Infrastructure as a Service) es uno de los tres modelos fundamentales en el campo del cloud computing, junto con el de Plataforma como Servicio (PaaS, Platform as a Service) y el de Software como Servicio (SaaS, Software as a Service).
+
 [IAAS](http://10.6.128.132:8080/)
 
 
 # Versión HEROKU
+
+Heroku es una plataforma como servicio de computación en la Nube que soporta distintos lenguajes de programación.
+
+[Documentación](https://devcenter.heroku.com/categories/learning)
 
 [HEROKU](http://dsipractica2.herokuapp.com/)
 
