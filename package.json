@@ -36,12 +36,11 @@
     "gitbook-cli": "^0.3.4",
     "gitbook": "^2.1.0"
   },
-  "engines":{
-    "node":"7.1.0"
+  "engines": {
+    "node": "7.1.0"
   },
-    "dependencies": {
-    "express": "^4.14.1"
-
+  "dependencies": {
+    "express": "^4.14.1",
+    "gitbook-cli": "^0.3.6"
   }
-
 }
