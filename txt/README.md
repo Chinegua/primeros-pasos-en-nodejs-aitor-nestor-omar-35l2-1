@@ -1,17 +1,23 @@
-# Book Title
+# Tareas Iniciales
+* Documentación nodeJS
+  * npm
+  * Package.JSON
+  * Gulp
+* Documentacion GH-Pages
+* Github
+* Pandoc
+* Cloud9
 
-> Book introduction here.
+# Versión en GH-Pages
 
-## Live Demo
+[GH-Pages](https://chinegua.github.io/tareas-iniciales-aitor-nestor-omar/)
 
-[Check demo!](http://my-user.github.io/my-repo)
 
-## Background
+# Versión Gitbook
 
-> [gitbook](http://www.gitbook.io) is used to generate github pages.
+[Gitbook](https://chinegua.gitbooks.io/tareas-iniciales-aitornestoromar/content/)
 
-## Contributing
-
-1. Create Issue
-2. Fork and PR
-
+# Autores
+* [Aitor Bernal Falcón](https://chinegua.github.io/)
+* [Néstor García Moreno](https://nestor-gm.github.io/)
+* [Omar Mendo Mesa](https://ozzrocker95.github.io/)
