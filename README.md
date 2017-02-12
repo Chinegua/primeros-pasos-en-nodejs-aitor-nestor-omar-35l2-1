@@ -1,27 +1,16 @@
-# GitBook Boilerplate
+# Práctica:Primeros pasos en NodeJS
+[LINK](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales2.html)
 
-# Installation
+# Versión en IAAS
 
-```shell
-cd ~/code
+[IAAS](http://10.6.128.132:8080/)
 
-git clone https://github.com/enten/gitbook-boilerplate.git awesome-project
 
-cd awesome-project
+# Versión HEROKU
 
-rm -fr .git
+[HEROKU](http://dsipractica2.herokuapp.com/)
 
-vi package.json
-# edit repository.url and repository.wiki
-
-git remote add origin <url>
-
-npm run build
-# or
-# npm run generate-gitbook && npm run generate-wiki
-
-npm run deploy
-# or
-# npm run deploy-gitbook && npm run deploy-wiki
-```
-__Important__: Wiki must be created on Github
+# Autores
+* [Aitor Bernal Falcón](https://chinegua.github.io/)
+* [Néstor García Moreno](https://nestor-gm.github.io/)
+* [Omar Mendo Mesa](https://ozzrocker95.github.io/)
