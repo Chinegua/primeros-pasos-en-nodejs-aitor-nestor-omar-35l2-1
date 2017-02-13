@@ -10,9 +10,7 @@ El concepto de Infraestructura como Servicio (IaaS, Infrastructure as a Service)
 
 # Versión HEROKU
 
-Heroku es una plataforma como servicio de computación en la Nube que soporta distintos lenguajes de programación.
-
-[Documentación](https://devcenter.heroku.com/categories/learning)
+[Heroku](https://devcenter.heroku.com/categories/learning) es una plataforma como servicio de computación en la Nube que soporta distintos lenguajes de programación.
 
 [HEROKU](http://dsipractica2.herokuapp.com/)
 
