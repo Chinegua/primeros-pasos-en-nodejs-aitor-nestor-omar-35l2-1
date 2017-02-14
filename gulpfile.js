@@ -8,6 +8,9 @@ gulp.task('deploy', function() {
     .pipe(ghPages());
 });
 
+gulp.task('build',shell.task([
+	'gitbook build'
+]));
 
 gulp.task('serve', shell.task([
   'gitbook serve'
