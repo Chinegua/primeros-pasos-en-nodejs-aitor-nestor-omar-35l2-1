@@ -1,4 +1,3 @@
-let file = require('../package.json')
 let path = require('path')
 let ghpages = require('gh-pages')
 
