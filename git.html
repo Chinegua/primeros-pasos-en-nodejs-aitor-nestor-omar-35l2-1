@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introducción · GitBook</title>
+        <title>Git · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.1">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="node.html" />
+    <link rel="next" href="github_desktop.html" />
     
+    
+    <link rel="prev" href="github.html" />
     
 
     </head>
@@ -83,7 +85,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -200,7 +202,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="git.html">
+        <li class="chapter active" data-level="1.4.1" data-path="git.html">
             
                 <a href="git.html">
             
@@ -300,7 +302,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introducción</a>
+        <a href="." >Git</a>
     </h1>
 </div>
 
@@ -312,25 +314,28 @@
                             
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="tareas-iniciales">Tareas Iniciales</h1><ul><li><p>Documentaci&#xF3;n nodeJS</p><ul><li>npm
+                                <h1 id="git">Git</h1><h3 id="software-de-control-de-versiones">Software de control de versiones</h3><p>Git fue creado pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando &#xE9;stas tienen un gran n&#xFA;mero de archivos de c&#xF3;digo fuente.</p><p>Algunas de las caracter&#xED;sticas m&#xE1;s importantes de Git son:</p><ul><li>Rapidez en la gesti&#xF3;n de ramas
 </li>
-<li>Package.JSON
+<li>Gesti&#xF3;n distribuida
 </li>
-<li>Gulp
+<li>Gesti&#xF3;n eficiente de proyectos grandes
+</li>
+<li>Realmacenamiento peri&#xF3;dico en paquetes
 </li></ul>
-</li>
-<li><p>Documentacion GH-Pages</p></li>
-<li>Github
-</li>
-<li>Pandoc
-</li>
-<li>Cloud9
+<h1 id="c&#xF3;mo-instalar-git">C&#xF3;mo instalar Git</h1><p>Git se puede instalar de varias maneras, ya sea por c&#xF3;digo fuente o mediante la instalaci&#xF3;n de paquetes para la plataforma que use el usuario, pero se suele usar m&#xE1;s por c&#xF3;digo fuente (Mac/Linux) por la facilidad de la instalaci&#xF3;n.</p><h2 id="instalaci&#xF3;n-para-linux">Instalaci&#xF3;n para Linux</h2><p>Dependiendo de la distribuci&#xF3;n que el usuario est&#xE9; utilizando, se puede realizar de dos maneras. Si el usuario usa una distribuci&#xF3;n basada en Fedora, usaremos el comando <strong>yum</strong></p><pre><code class="lang-she">yum install git-core</code></pre>
+<p>Si al contrario, usa una distribuci&#xF3;n basada en Debian (como Ubuntu), usaremos <strong>apt-get</strong></p><pre><code class="lang-she">apt-get install git</code></pre>
+<h2 id="instalaci&#xF3;n-para-mac">Instalaci&#xF3;n para Mac</h2><p>La manera m&#xE1;s sencilla es mediante el instalador gr&#xE1;fico de Git, pero si en este caso tenemos instalado <strong>Homebrew</strong>, lo haremos por este m&#xE9;todo.</p><pre><code class="lang-she">brew install git</code></pre>
+<h2 id="instalaci&#xF3;n-para-windows">Instalaci&#xF3;n para Windows</h2><p>Instalar Git en Windows es muy f&#xE1;cil. El proyecto msysGit tiene uno de los procesos de instalaci&#xF3;n m&#xE1;s sencillos. Simplemente descarga el archivo exe del instalador desde la p&#xE1;gina de GitHub, y ejec&#xFA;talo:</p><pre><code class="lang-she">http://msysgit.github.com/</code></pre>
+<h1 id="&#xF3;rdenes-b&#xE1;sicas-de-git">&#xD3;rdenes b&#xE1;sicas de Git</h1><ul><li>Iniciar un repositorio vac&#xED;o en una carpeta determinada
 </li></ul>
-<h1 id="versi&#xF3;n-en-gh-pages">Versi&#xF3;n en GH-Pages</h1><p><a href="https://chinegua.github.io/tareas-iniciales-aitor-nestor-omar/" target="_blank">GH-Pages</a></p><h1 id="versi&#xF3;n-gitbook">Versi&#xF3;n Gitbook</h1><p><a href="https://chinegua.gitbooks.io/tareas-iniciales-aitornestoromar/content/" target="_blank">Gitbook</a></p><h1 id="autores">Autores</h1><ul><li><a href="https://chinegua.github.io/" target="_blank">Aitor Bernal Falc&#xF3;n</a>
+<pre><code class="lang-she">git init</code></pre>
+<ul><li><p>A&#xF1;adir un archivo espec&#xED;fico</p><pre><code class="lang-she">git add &quot;nombre_archivo&quot;</code></pre>
+<ul><li><p>A&#xF1;adir todos los archivos del directorio</p><pre><code class="lang-she">git add .</code></pre>
 </li>
-<li><a href="https://nestor-gm.github.io/" target="_blank">N&#xE9;stor Garc&#xED;a Moreno</a>
+<li><p>Confirmar los cambios realizados (como mensaje)</p><pre><code class="lang-she">git commit -am &quot;mensaje&quot;</code></pre>
 </li>
-<li><a href="https://ozzrocker95.github.io/" target="_blank">Omar Mendo Mesa</a>
+<li><p>Mostrar el estado actual de la rama de trabajo</p><pre><code class="lang-she">git status</code></pre>
+</li></ul>
 </li></ul>
 
                                 
@@ -343,8 +348,12 @@
 
             
                 
+                <a href="github.html" class="navigation navigation-prev " aria-label="Previous page: Github">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="node.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Node.js">
+                
+                <a href="github_desktop.html" class="navigation navigation-next " aria-label="Next page: Github Desktop">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -355,7 +364,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introducción","level":"1.1","depth":1,"next":{"title":"Node.js","level":"1.2","depth":1,"path":"node.md","ref":"node.md","articles":[{"title":"npm","level":"1.2.1","depth":2,"path":"npm.md","ref":"npm.md","articles":[]},{"title":"Package.JSON","level":"1.2.2","depth":2,"path":"package_json.md","ref":"package_json.md","articles":[]},{"title":"Gulp","level":"1.2.3","depth":2,"path":"gulp.md","ref":"gulp.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"root":"./txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"README.md","mtime":"2017-02-14T12:20:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.1","time":"2017-02-14T12:24:29.421Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Git","level":"1.4.1","depth":2,"next":{"title":"Github Desktop","level":"1.4.2","depth":2,"path":"github_desktop.md","ref":"github_desktop.md","articles":[]},"previous":{"title":"Github","level":"1.4","depth":1,"path":"github.md","ref":"github.md","articles":[{"title":"Git","level":"1.4.1","depth":2,"path":"git.md","ref":"git.md","articles":[]},{"title":"Github Desktop","level":"1.4.2","depth":2,"path":"github_desktop.md","ref":"github_desktop.md","articles":[]},{"title":"Gitbook","level":"1.4.3","depth":2,"path":"gitbook.md","ref":"gitbook.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"root":"./txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"git.md","mtime":"2017-02-14T12:20:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.1","time":"2017-02-14T12:24:29.421Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

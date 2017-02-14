@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introducción · GitBook</title>
+        <title>Pandoc · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.1">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="node.html" />
+    <link rel="next" href="c9.html" />
     
+    
+    <link rel="prev" href="gitbook.html" />
     
 
     </head>
@@ -83,7 +85,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -244,7 +246,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="pandoc.html">
+        <li class="chapter active" data-level="1.5" data-path="pandoc.html">
             
                 <a href="pandoc.html">
             
@@ -300,7 +302,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introducción</a>
+        <a href="." >Pandoc</a>
     </h1>
 </div>
 
@@ -312,26 +314,13 @@
                             
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="tareas-iniciales">Tareas Iniciales</h1><ul><li><p>Documentaci&#xF3;n nodeJS</p><ul><li>npm
-</li>
-<li>Package.JSON
-</li>
-<li>Gulp
-</li></ul>
-</li>
-<li><p>Documentacion GH-Pages</p></li>
-<li>Github
-</li>
-<li>Pandoc
-</li>
-<li>Cloud9
-</li></ul>
-<h1 id="versi&#xF3;n-en-gh-pages">Versi&#xF3;n en GH-Pages</h1><p><a href="https://chinegua.github.io/tareas-iniciales-aitor-nestor-omar/" target="_blank">GH-Pages</a></p><h1 id="versi&#xF3;n-gitbook">Versi&#xF3;n Gitbook</h1><p><a href="https://chinegua.gitbooks.io/tareas-iniciales-aitornestoromar/content/" target="_blank">Gitbook</a></p><h1 id="autores">Autores</h1><ul><li><a href="https://chinegua.github.io/" target="_blank">Aitor Bernal Falc&#xF3;n</a>
-</li>
-<li><a href="https://nestor-gm.github.io/" target="_blank">N&#xE9;stor Garc&#xED;a Moreno</a>
-</li>
-<li><a href="https://ozzrocker95.github.io/" target="_blank">Omar Mendo Mesa</a>
-</li></ul>
+                                <h1 id="pandoc">Pandoc</h1><p>Es un conversor libre y de c&#xF3;digo abierto, mayormente usado como una herramienta de escritura.
+Se usa para producir documentos en una variedad de formatos desde archivos markdown.
+Pandoc puede convertir documentos markdown, textile, HTML, LaTeX, OPML y un amplio abanico en HTML, docx, pdf, open office odt, etc.</p><h2 id="instalaci&#xF3;n">Instalaci&#xF3;n</h2><p>A trav&#xE9;s de homebrew</p><pre><code class="lang-she">brew install pandoc</code></pre>
+<p>O descargando el paquete directamente de la web oficial</p><h2 id="node-pandoc">node-pandoc</h2><p>Es un paquete que act&#xFA;a simplemente como puente entre la interfaz de l&#xED;nea de comandos de Pandoc y nodeJS</p><p>Para instalarlo</p><pre><code class="lang-she">npm install node-pandoc</code></pre>
+<h2 id="ejemplos-conversiones">Ejemplos conversiones</h2><p>HTML</p><pre><code class="lang-she">pandoc MANUAL.txt -o example1.html</code></pre>
+<p>LaTeX</p><pre><code class="lang-she">pandoc -s MANUAL.txt -o example4.tex</code></pre>
+<p>LaTeX a markdown</p><pre><code class="lang-she">pandoc -s example4.tex -o example5.text</code></pre>
 
                                 
                                 </section>
@@ -343,8 +332,12 @@
 
             
                 
+                <a href="gitbook.html" class="navigation navigation-prev " aria-label="Previous page: Gitbook">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="node.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Node.js">
+                
+                <a href="c9.html" class="navigation navigation-next " aria-label="Next page: Cloud9">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -355,7 +348,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introducción","level":"1.1","depth":1,"next":{"title":"Node.js","level":"1.2","depth":1,"path":"node.md","ref":"node.md","articles":[{"title":"npm","level":"1.2.1","depth":2,"path":"npm.md","ref":"npm.md","articles":[]},{"title":"Package.JSON","level":"1.2.2","depth":2,"path":"package_json.md","ref":"package_json.md","articles":[]},{"title":"Gulp","level":"1.2.3","depth":2,"path":"gulp.md","ref":"gulp.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"root":"./txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"README.md","mtime":"2017-02-14T12:20:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.1","time":"2017-02-14T12:24:29.421Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Pandoc","level":"1.5","depth":1,"next":{"title":"Cloud9","level":"1.6","depth":1,"path":"c9.md","ref":"c9.md","articles":[]},"previous":{"title":"Gitbook","level":"1.4.3","depth":2,"path":"gitbook.md","ref":"gitbook.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"pandoc.md","mtime":"2017-02-14T12:20:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.1","time":"2017-02-14T12:24:29.421Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>

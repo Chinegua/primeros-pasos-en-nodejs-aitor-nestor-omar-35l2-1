@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Introducción · GitBook</title>
+        <title>Gitbook · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.1">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="node.html" />
+    <link rel="next" href="pandoc.html" />
     
+    
+    <link rel="prev" href="github_desktop.html" />
     
 
     </head>
@@ -83,7 +85,7 @@
         
         
     
-        <li class="chapter active" data-level="1.1" data-path="./">
+        <li class="chapter " data-level="1.1" data-path="./">
             
                 <a href="./">
             
@@ -226,7 +228,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.3" data-path="gitbook.html">
+        <li class="chapter active" data-level="1.4.3" data-path="gitbook.html">
             
                 <a href="gitbook.html">
             
@@ -300,7 +302,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Introducción</a>
+        <a href="." >Gitbook</a>
     </h1>
 </div>
 
@@ -312,27 +314,9 @@
                             
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="tareas-iniciales">Tareas Iniciales</h1><ul><li><p>Documentaci&#xF3;n nodeJS</p><ul><li>npm
-</li>
-<li>Package.JSON
-</li>
-<li>Gulp
-</li></ul>
-</li>
-<li><p>Documentacion GH-Pages</p></li>
-<li>Github
-</li>
-<li>Pandoc
-</li>
-<li>Cloud9
-</li></ul>
-<h1 id="versi&#xF3;n-en-gh-pages">Versi&#xF3;n en GH-Pages</h1><p><a href="https://chinegua.github.io/tareas-iniciales-aitor-nestor-omar/" target="_blank">GH-Pages</a></p><h1 id="versi&#xF3;n-gitbook">Versi&#xF3;n Gitbook</h1><p><a href="https://chinegua.gitbooks.io/tareas-iniciales-aitornestoromar/content/" target="_blank">Gitbook</a></p><h1 id="autores">Autores</h1><ul><li><a href="https://chinegua.github.io/" target="_blank">Aitor Bernal Falc&#xF3;n</a>
-</li>
-<li><a href="https://nestor-gm.github.io/" target="_blank">N&#xE9;stor Garc&#xED;a Moreno</a>
-</li>
-<li><a href="https://ozzrocker95.github.io/" target="_blank">Omar Mendo Mesa</a>
-</li></ul>
-
+                                <h1 id="gitbook">Gitbook</h1><p>GitBook es una excelente herramienta para crear documentaci&#xF3;n de proyectos y libros t&#xE9;cnicos usando Markdown y Git/Github. Permite incluir ejemplos y ejercicios interactivos (de momento, soporta solamente JavaScript) para posteriormente publicarlos de forma online via Github o cualquier otro hosting web.</p><p>Utilizando Markdown podemos maquetar los documentos y crearlos en distintos formatos como PDF, ebook o web. Uno de los objetivos de GitBook es poder crear documentaci&#xF3;n que sea f&#xE1;cilmente editable y abierta a contribuciones, por eso usando Git/Github podemos publicar nuestro libro t&#xE9;cnico y manejar las colaboraciones de forma transparente.</p><h2 id="instalaci&#xF3;n">Instalaci&#xF3;n</h2><p>Para instalar gitbook lo haremos mediante un paquete npm ejecutando la siguiente linea de comando</p><pre><code class="lang-she">npm install gitbook-cli -g</code></pre>
+<p>Una vez instalado creamos el fichero book.json que contiene donde se encuentran los markdown para que el comando gitbook build sepa donde acceser, en caso de tener a&#xF1;g&#xFA;n plug-in en en nuestro gitbook deberiamos declararlo aqui tambien.</p><p>Ejecutamos el siguiente comando:</p><pre><code class="lang-she">gitbook build</code></pre>
+<p>con este comando se crea la carpeta _book que es donde se encuentran todos los ficheros html y estilos que se van a alojar en gitbook</p>
                                 
                                 </section>
                             
@@ -343,8 +327,12 @@
 
             
                 
+                <a href="github_desktop.html" class="navigation navigation-prev " aria-label="Previous page: Github Desktop">
+                    <i class="fa fa-angle-left"></i>
+                </a>
                 
-                <a href="node.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Node.js">
+                
+                <a href="pandoc.html" class="navigation navigation-next " aria-label="Next page: Pandoc">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -355,7 +343,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introducción","level":"1.1","depth":1,"next":{"title":"Node.js","level":"1.2","depth":1,"path":"node.md","ref":"node.md","articles":[{"title":"npm","level":"1.2.1","depth":2,"path":"npm.md","ref":"npm.md","articles":[]},{"title":"Package.JSON","level":"1.2.2","depth":2,"path":"package_json.md","ref":"package_json.md","articles":[]},{"title":"Gulp","level":"1.2.3","depth":2,"path":"gulp.md","ref":"gulp.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[],"root":"./txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"README.md","mtime":"2017-02-14T12:20:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.1","time":"2017-02-14T12:24:29.421Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Gitbook","level":"1.4.3","depth":2,"next":{"title":"Pandoc","level":"1.5","depth":1,"path":"pandoc.md","ref":"pandoc.md","articles":[]},"previous":{"title":"Github Desktop","level":"1.4.2","depth":2,"path":"github_desktop.md","ref":"github_desktop.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gitbook.md","mtime":"2017-02-14T12:20:36.000Z","type":"markdown"},"gitbook":{"version":"3.2.1","time":"2017-02-14T12:24:29.421Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
