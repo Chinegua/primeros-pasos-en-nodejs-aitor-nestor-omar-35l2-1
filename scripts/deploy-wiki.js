@@ -1,9 +1,9 @@
-var fs = require('fs');
+require('shells/global');
 var git = require('simple-git')
 var REPO = require("./package.json").repository.wiki
 
 
- fs.rmdirSync('wiki/.git')
+ rm('-rf','.git');
 
 git()
   .init()
