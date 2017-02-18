@@ -1,4 +1,28 @@
 [{
+  "commit": "71310ca812fd9aabc1377128cfc69382c1e84249",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 23:49:18 2017 +0000",
+  "message": "A-adiendo-git-log-en-.js"
+},
+{
+  "commit": "5554c71562e6257e01d05bf15df5c221c2174236",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 23:31:06 2017 +0000",
+  "message": "Subiendo-mejora-contributors"
+},
+{
+  "commit": "a741cdc8a494a913dde9ba48eb9db7961c50045f",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 23:28:50 2017 +0000",
+  "message": "A-adiendo-mejora-contributors"
+},
+{
+  "commit": "dd6ff641b847c46c1ba8233049ef5f1115b8f4c6",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sat Feb 18 19:33:29 2017 +0000",
+  "message": "Modificando-deploy-wiki.js"
+},
+{
   "commit": "a11b2937047e9917cb5643fd757a49d137646966",
   "author": "Chinegua <alu0100830064@ull.edu.es>",
   "date": "Sat Feb 18 19:08:46 2017 +0000",
@@ -316,3 +340,4 @@
   "date": "Wed Jul 29 21:21:03 2015 +0200",
   "message": "First-commit"
 }]
+
