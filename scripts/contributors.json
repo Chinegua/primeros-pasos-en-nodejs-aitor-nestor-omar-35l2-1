@@ -1,4 +1,10 @@
 [{
+  "commit": "8f9cbaf44a5b9a835da54a136e0206ab1eb651f2",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 23:53:56 2017 +0000",
+  "message": "A-adiendo-mejoras-y-solucionando-errores-en-contributors"
+},
+{
   "commit": "9db9b62891a85329ab443f1fe289be207ba58026",
   "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
   "date": "Sat Feb 18 23:51:38 2017 +0000",

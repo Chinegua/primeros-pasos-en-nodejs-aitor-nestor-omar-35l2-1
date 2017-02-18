@@ -9,8 +9,6 @@ child =exec ('node git-log.js',function(error,stdout,stderr){
       }
       let content = mod.readFileSync("contributors.json");
       let jsonContent = JSON.parse(content);
-      console.log("User:",jsonContent[0].author);
-      console.log("Date:",jsonContent[0].date);
     for (i = 0; i < jsonContent.length; i++) { 
     	
     	mod.appendFile("../MAINTAINERS","<Autor: "+jsonContent[i].author+">\n"+"Last Commit: "+jsonContent[i].date+" ("+jsonContent[i].message+")"+"\n"+" "+"\n", function(err){
