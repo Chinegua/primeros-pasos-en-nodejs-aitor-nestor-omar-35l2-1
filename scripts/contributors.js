@@ -1,5 +1,5 @@
 var exec = require('child_process').exec
-var fs = require('fs')
+var mod = require('fs')
 
 child =exec ('git log',function(error,stdout,stderr){
   console.log('stdout: ' + stdout)
@@ -7,4 +7,7 @@ child =exec ('git log',function(error,stdout,stderr){
       if(err){
         return console.log(err);
       }
-  }
+      console.log("Modified file");
+  });
+
+  
