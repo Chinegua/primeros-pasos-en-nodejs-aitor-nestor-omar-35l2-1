@@ -1,6 +1,6 @@
 require('shells/global');
-var git = require('simple-git')
-var REPO = require("./package.json").repository.wiki
+let git = require('simple-git')
+let REPO = require("./package.json").repository.wiki
 
 
  rm('-rf','.git');
