@@ -47,7 +47,7 @@ mod.appendFile("../MAINTAINERS","<Autor: "+jsonContent[i].author+">\n"+"Last Com
 ```
 
 ## deploy-gitbook.js
-Script que tiene como función, como su nombre indica, desplegar un libro en GitBook, formado por los archivos *.html* alojados en la carpeta [txt](https://github.com/ozzrocker95/primeros-pasos-en-nodejs-aitor-nestor-omar-35l2/tree/master/txt)
+Script que tiene como función, como su nombre indica, desplegar un libro en gh-pages, formado por los archivos *.html* alojados en la carpeta [txt](https://github.com/ozzrocker95/primeros-pasos-en-nodejs-aitor-nestor-omar-35l2/tree/master/txt)
 
 ```javascript
 let path = require('path')
