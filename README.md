@@ -24,6 +24,11 @@ Enlace al gitbook desplegdo en [Heroku](http://dsipractica2.herokuapp.com/)
 * [Néstor García Moreno](https://nestor-gm.github.io/)
 * [Omar Mendo Mesa](https://ozzrocker95.github.io/)
 
+
+
+
+
+
 # Funciones de los scripts JS
 
 Hemos hecho un port de los scripts realizados en Shell a JavaScript, con el fin de tener unos scripts más sencillos de comprender y universales.
@@ -35,4 +40,4 @@ Script que tiene como función principal recopilar los contribuyentes (commits) 
 let exec = require('child_process').exec
 let mod = require('fs')
 ```
-*Hacemos uso de dos módulos,* **Child Process** y **FS**, para conseguir recoger la ejecución del comando *git log* por shell, además de usar operaciones varías con ficheros.*
+Hacemos uso de dos módulos, **Child Process** y **FS**, para conseguir recoger la ejecución del comando **git log** por shell, (*inicializado en el script git-log.js*), además de usar operaciones varías con ficheros.
