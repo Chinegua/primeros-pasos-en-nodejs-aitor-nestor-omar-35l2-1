@@ -47,7 +47,7 @@ mod.appendFile("../MAINTAINERS","<Autor: "+jsonContent[i].author+">\n"+"Last Com
 ```
 
 ## deploy-gitbook.js
-Script que tiene como función, como su nombre indica, desplegar un libro en gh-pages, formado por los archivos *.html* alojados en la carpeta _book
+Script que tiene como función, como su nombre indica, desplegar un libro en GitBook, formado por los archivos *.html* alojados en la carpeta [txt](https://github.com/ozzrocker95/primeros-pasos-en-nodejs-aitor-nestor-omar-35l2/tree/master/txt)
 
 ```javascript
 let path = require('path')
@@ -58,13 +58,28 @@ En este script necesitamos utilizar dos módulos, [path](https://nodejs.org/api/
 ```javascript
 ghpages.publish(path.join(__dirname,'../_book'),function(err){
 ```
-La parte de codigo anterior se encarga de realizar un *publish* del contenido del directorio **_book**, a la rama *gh-pages*
+Este script lo único que realiza es hacer un *publish* del contenido del directorio **_book**, alojado en la rama de *gh-pages*
 
 ## deploy-wiki.js
+Script para desplegar la wiki de manera automatizada, las wikis proporcionan un lugar en su repositorio para establecer juntos el mapa de ruta de su proyecto, mostrar el estado actual y documentar mejor el software.
+
+```javascript
+require('shells/global');
+```
+Usamos el módulo shellsJ que es una implementación portátil (Windows / Linux / OS X) de comandos de shell de Unix en la parte de NodeJS
+Como por ejemplo:
+
+```javascript
+ rm('-rf','.git');
+```
+Creamos una variable 'REPO' para acceder a la wiki del repositorio, a través del __package.json__. 
+Desplegamos la wiki a través de git 
+
+
 ## generate-gitbook.js
 ## generate-wiki.js
 ## git-log.js
-Este script lo hemos realizado por necesidad, con el fin de convertir lo que devuelve git-log en formato JSON para poder hacer un tratado mas comodo de la información sobre los commits, para posteriormente pasar su resultado al script **contributors.js**
+Script que realiza la ejecución del comando por shell **git log**, con el fin de recopilar y mostrar los commit de los contribuyentes del proyecto, para posteriormente pasar su resultado al script **contributors.js**
 
 ```javascript
 let exec = require('child_process').exec
@@ -74,7 +89,7 @@ Como concretamos anteriormente, se hace uso del módulo [Child Process](https://
 ```javascript
 child =exec ('git log --pretty=format:\'{%n  \"commit\": \"%H\",%n  \"author\": \"%aN <%aE>\",%n  \"date\": \"%ad\",%n  \"message\": \"%f\"%n},\' $@ | perl -pe \'BEGIN{print \"[\"}; END{print \"]\n\"}\' | perl -pe \'s/},]/}]/\n\'' ,function(error,stdout,stderr){
 ```
-Se realiza un **exec** con la ejecución del comando *git log*, con un formateo de la salida a JSON para, como comentabamos anteriormente, que nos resulte mas facil tratar con el.
+Se realiza un **exec** con la ejecución del comando *git log*, con el formato que se desea mostrar el resultado de la ejecución.
 
 
 # Autores
