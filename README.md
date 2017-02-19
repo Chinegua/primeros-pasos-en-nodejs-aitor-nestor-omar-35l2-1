@@ -61,12 +61,12 @@ ghpages.publish(path.join(__dirname,'../_book'),function(err){
 Este script lo único que realiza es hacer un *publish* del contenido del directorio **_book**, alojado en la rama de *gh-pages*
 
 ## deploy-wiki.js
-Script para desplegar la wiki de manera automatizada, las wikis proporcionan un lugar en su repositorio para establecer juntos el mapa de ruta de su proyecto, mostrar el estado actual y documentar mejor el software.
+Script para desplegar la wiki de manera automatizada, las wikis proporcionan un lugar en el repositorio para establecer juntos el mapa de ruta del proyecto, mostrar el estado actual y documentar mejor el software.
 
 ```javascript
 require('shells/global');
 ```
-Usamos el módulo shellsJ que es una implementación portátil (Windows / Linux / OS X) de comandos de shell de Unix en la parte de NodeJS
+Usamos el módulo [shelljs](https://github.com/shelljs/shelljs) que es una implementación portátil (Windows / Linux / OS X) de comandos de shell de Unix en la parte de NodeJS
 Como por ejemplo:
 
 ```javascript
