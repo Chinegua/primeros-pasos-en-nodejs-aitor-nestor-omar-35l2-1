@@ -1,6 +1,6 @@
 let mod = require('fs')
-
 const readline = require('readline');
+let jsonfile = require('jsonfile')
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -10,9 +10,16 @@ const rl = readline.createInterface({
 
 rl.question('Introduzca la version ', (answer) => {
   // TODO: Log the answer in a database
-  console.log(`La version introducida es: ${answer}`);
   let content = mod.readFileSync("../package.json");
   let jsonContent = JSON.parse(content);
-  jsonContent.version = +answer+
-  rl.close();
+  console.log("Version actual: "+jsonContent.version)
+  console.log("La version introducida es: "+answer);
+  jsonContent.version = answer
+  console.log(jsonContent);
+  jsonfile.writeFile("../package.json",jsonContent,{spaces: 2},(err) =>{
+    if(err){
+      return console.log(err);
+    }
+    rl.close();
+  });
 });
