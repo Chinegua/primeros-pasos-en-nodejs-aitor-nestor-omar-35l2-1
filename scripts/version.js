@@ -1,6 +1,4 @@
-let exec = require('child_process').exec
 let mod = require('fs')
-
 
 const readline = require('readline');
 
@@ -9,21 +7,12 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('Intrdoduzca la version: ', (answer) => {
-  // TODO: Log the answer in a database
-  console.log(`La version es: ${answer}`);
-  rl.close();
-  child = exec ('json -I -f ../package.json -e \'this.version="'+answer+'"\'' , function(error,stdout,stderr){
-  console.log('stdout: ' + stdout)
-  mod.writeFile("../package.json", stdout, function(err){
-      if(err){
-        return console.log(err);
-      }
-      console.log("Modified file");
-  });
 
-  if (error !== null){
-     console.log('exec error: ' + error)
-  }
+rl.question('Introduzca la version ', (answer) => {
+  // TODO: Log the answer in a database
+  console.log(`La version introducida es: ${answer}`);
+  let content = mod.readFileSync("../package.json");
+  let jsonContent = JSON.parse(content);
+  jsonContent.version = +answer+
+  rl.close();
 });
-})
