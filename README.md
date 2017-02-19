@@ -19,12 +19,6 @@ Enlace al gitbook desplegado en el [IAAS de la Ull](http://10.6.128.132:8080/)
 
 Enlace al gitbook desplegdo en [Heroku](http://dsipractica2.herokuapp.com/)
 
-# Autores
-* [Aitor Bernal Falcón](https://chinegua.github.io/)
-* [Néstor García Moreno](https://nestor-gm.github.io/)
-* [Omar Mendo Mesa](https://ozzrocker95.github.io/)
-
-
 # Funciones de los scripts JS
 
 Hemos hecho un port de los scripts realizados en Shell a JavaScript, con el fin de tener unos scripts más sencillos de comprender y universales.
@@ -81,3 +75,11 @@ Como concretamos anteriormente, se hace uso del módulo [Child Process](https://
 child =exec ('git log --pretty=format:\'{%n  \"commit\": \"%H\",%n  \"author\": \"%aN <%aE>\",%n  \"date\": \"%ad\",%n  \"message\": \"%f\"%n},\' $@ | perl -pe \'BEGIN{print \"[\"}; END{print \"]\n\"}\' | perl -pe \'s/},]/}]/\n\'' ,function(error,stdout,stderr){
 ```
 Se realiza un **exec** con la ejecución del comando *git log*, con el formato que se desea mostrar el resultado de la ejecución.
+
+
+# Autores
+* [Aitor Bernal Falcón](https://chinegua.github.io/)
+* [Néstor García Moreno](https://nestor-gm.github.io/)
+* [Omar Mendo Mesa](https://ozzrocker95.github.io/)
+
+
