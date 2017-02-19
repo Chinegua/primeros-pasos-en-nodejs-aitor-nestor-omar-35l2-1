@@ -30,7 +30,7 @@ Script que tiene como función principal recopilar los contribuyentes (commits) 
 let exec = require('child_process').exec
 let mod = require('fs')
 ```
-Hacemos uso de dos módulos, [Child Process](https://nodejs.org/api/child_process.html) y [FS](https://nodejs.org/api/fs.html), para conseguir recoger la ejecución del comando **git log** por shell, (*inicializado en el script git-log.js*), además de usar operaciones varías con ficheros.
+Hacemos uso de dos módulos, [child process](https://nodejs.org/api/child_process.html) y [fs](https://nodejs.org/api/fs.html), para conseguir recoger la ejecución del comando **git log** por shell, (*inicializado en el script git-log.js*), además de usar operaciones varías con ficheros.
 
 ```javascript
 child =exec ('node git-log.js',(error,stdout,stderr) => {
@@ -72,12 +72,24 @@ Como por ejemplo:
 ```javascript
  rm('-rf','.git');
 ```
-Creamos una variable 'REPO' para acceder a la wiki del repositorio, a través del __package.json__. 
-Desplegamos la wiki a través de git 
+Creamos una variable 'REPO' para acceder a la wiki del repositorio, a través del __package.json__.
+Desplegamos la wiki a través de git
 
 
 ## generate-gitbook.js
+
 ## generate-wiki.js
+
+## version.js
+Script que trabaja con el número de versión en el *package.json*, es decir, puede aceptar la modificación de la versión en el mismo o simplemente mostrar el número de versión actual.
+
+```javascript
+let mod = require('fs')
+const readline = require('readline');
+let jsonfile = require('jsonfile')
+```
+Para este script, hacemos uso de los módulos [fs](https://nodejs.org/api/fs.html), [readline](https://nodejs.org/api/readline.html) y [jsonfile](https://www.npmjs.com/package/jsonfile)
+
 ## git-log.js
 Script que realiza la ejecución del comando por shell **git log**, con el fin de recopilar y mostrar los commit de los contribuyentes del proyecto, para posteriormente pasar su resultado al script **contributors.js**
 
@@ -96,5 +108,3 @@ Se realiza un **exec** con la ejecución del comando *git log*, con el formato q
 * [Aitor Bernal Falcón](https://chinegua.github.io/)
 * [Néstor García Moreno](https://nestor-gm.github.io/)
 * [Omar Mendo Mesa](https://ozzrocker95.github.io/)
-
-
