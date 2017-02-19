@@ -91,6 +91,32 @@ child =exec ("../node_modules/.bin/gitbook build ../txt ../_book",(error,stdout,
 Se realiza la ejecución del comando **gitbook build** de todos los archivos *.html de la carpeta **_book**
 
 ## generate-wiki.js
+Script que crea (en el caso de que no esté creada) la wiki del repositorio, donde se mostrará de forma más detallada la documentación del software en cuestión.
+
+```javascript
+var path = require('path');
+
+var fs = require('fs-extra');
+var async = require('async');
+```
+Se hace uso de los módulos [path](https://nodejs.org/api/path.html), [fs-extra](https://www.npmjs.com/package/node-fs-extra) y [async](https://www.npmjs.com/package/async)
+
+```javascript
+fs.mkdir(output, function() {
+        // if it dir exists already, just override content
+        generateWiki(input, output, function(err) {
+            if(err) {
+                return console.error(err);
+            }
+
+            console.log('generated wiki');
+```
+Básicamente, lo que realiza es comprobar que la wiki no está creada, y si no, la crea.
+
+```javascript
+function generateWiki(input, output, cb) {
+```
+Esta función crea los elementos que forman la wiki *(Ej. README.md, SUMMARY.md)*
 
 ## version.js
 Script que trabaja con el número de versión en el *package.json*, es decir, puede aceptar la modificación de la versión en el mismo o simplemente mostrar el número de versión actual.
