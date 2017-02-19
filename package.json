@@ -44,6 +44,7 @@
     "gitbook-cli": "^0.3.6",
     "gulp-gh-pages": "^0.5.4",
     "gulp-shell": "^0.5.2",
+    "jsonfile": "^2.4.0",
     "shelljs": "^0.7.6"
   }
 }
