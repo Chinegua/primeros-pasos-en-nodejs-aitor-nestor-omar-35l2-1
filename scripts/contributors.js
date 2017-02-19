@@ -1,9 +1,9 @@
 let exec = require('child_process').exec
 let mod = require('fs')
 
-child =exec ('node git-log.js',function(error,stdout,stderr){
+child =exec ('node git-log.js',(error,stdout,stderr) => {
   
-  mod.writeFile("contributors.json", stdout, function(err){
+  mod.writeFile("contributors.json", stdout, (err) => {
       if(err){
         return console.log(err);
       }
@@ -11,7 +11,7 @@ child =exec ('node git-log.js',function(error,stdout,stderr){
       let jsonContent = JSON.parse(content);
     for (i = 0; i < jsonContent.length; i++) { 
     	
-    	mod.appendFile("../MAINTAINERS","<Autor: "+jsonContent[i].author+">\n"+"Last Commit: "+jsonContent[i].date+" ("+jsonContent[i].message+")"+"\n"+" "+"\n", function(err){
+    	mod.appendFile("../MAINTAINERS","<Autor: "+jsonContent[i].author+">\n"+"Last Commit: "+jsonContent[i].date+" ("+jsonContent[i].message+")"+"\n"+" "+"\n",(err) => {
       	if(err){
         	return console.log(err);
       	}

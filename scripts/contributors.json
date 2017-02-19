@@ -1,1 +1,445 @@
+[{
+  "commit": "29081dba80b43e3f1ec36c80d22d3c5b88b5f1af",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 12:52:04 2017 +0000",
+  "message": "Mejorando-Readme.md"
+},
+{
+  "commit": "438673cb2cefd0c23bba7441efbda7587ab08bcb",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 12:40:25 2017 +0000",
+  "message": "Mejorando-Readme.md"
+},
+{
+  "commit": "469810ddd1a51e8615e914d3c0645bbf57c11513",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 12:39:33 2017 +0000",
+  "message": "Mejorando-Readme.md"
+},
+{
+  "commit": "3f89f23582625f79888803e7702813c03ff1fa21",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 12:38:22 2017 +0000",
+  "message": "Mejorando-Readme.md"
+},
+{
+  "commit": "45c0342487335ad046b960259a31fac509b0afb4",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 12:36:42 2017 +0000",
+  "message": "Merge-pull-request-32-from-ozzrocker95-master"
+},
+{
+  "commit": "576c0c0135f56e007170fa49fb92641fe4d65dc7",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 12:36:26 2017 +0000",
+  "message": "Merge-branch-master-into-master"
+},
+{
+  "commit": "ee1364b976ecbf337e155e5ea4171b22475cee84",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 01:02:54 2017 +0000",
+  "message": "Update-README.md"
+},
+{
+  "commit": "99200dfae0748f4732c36fd8bf5d4bbca0235893",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 00:47:19 2017 +0000",
+  "message": "Update-README.md"
+},
+{
+  "commit": "3fb3f2e58b2b5671481fc81a0ab48949d15c8503",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 00:39:30 2017 +0000",
+  "message": "Update-README.md"
+},
+{
+  "commit": "4a07cb64b93d8be54710121b85f36301e1c80e8f",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 00:34:20 2017 +0000",
+  "message": "Modificando-archivos-varios"
+},
+{
+  "commit": "496e08e841eca9ed5be91db4df7546864b40bf8d",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 00:25:02 2017 +0000",
+  "message": "Update-README.md"
+},
+{
+  "commit": "9c334b1444bd80db5f1e825908020981fc58c79a",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 00:20:16 2017 +0000",
+  "message": "Update-README.md"
+},
+{
+  "commit": "b8a96beb9af1ae4588d92fb2f8133b682eca4af1",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 00:08:46 2017 +0000",
+  "message": "Modificando-README.md"
+},
+{
+  "commit": "c574ac8b7fa1a0778eef517d3d632a0b57515107",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 00:02:58 2017 +0000",
+  "message": "Eliminando-archivos-sobrantes"
+},
+{
+  "commit": "af99c3634947952733ca5af68fa8bb87d81ec8aa",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 23:54:31 2017 +0000",
+  "message": "A-adiendo-mejoras-y-solucionando-errores-en-contributors"
+},
+{
+  "commit": "8f9cbaf44a5b9a835da54a136e0206ab1eb651f2",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 23:53:56 2017 +0000",
+  "message": "A-adiendo-mejoras-y-solucionando-errores-en-contributors"
+},
+{
+  "commit": "9db9b62891a85329ab443f1fe289be207ba58026",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 23:51:38 2017 +0000",
+  "message": "A-adiendo-mejoras-y-solucionando-errores-en-contributors"
+},
+{
+  "commit": "71310ca812fd9aabc1377128cfc69382c1e84249",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 23:49:18 2017 +0000",
+  "message": "A-adiendo-git-log-en-.js"
+},
+{
+  "commit": "5554c71562e6257e01d05bf15df5c221c2174236",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 23:31:06 2017 +0000",
+  "message": "Subiendo-mejora-contributors"
+},
+{
+  "commit": "a741cdc8a494a913dde9ba48eb9db7961c50045f",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 23:28:50 2017 +0000",
+  "message": "A-adiendo-mejora-contributors"
+},
+{
+  "commit": "dd6ff641b847c46c1ba8233049ef5f1115b8f4c6",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sat Feb 18 19:33:29 2017 +0000",
+  "message": "Modificando-deploy-wiki.js"
+},
+{
+  "commit": "a11b2937047e9917cb5643fd757a49d137646966",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Sat Feb 18 19:08:46 2017 +0000",
+  "message": "Merge-pull-request-31-from-ozzrocker95-master"
+},
+{
+  "commit": "43dcd22b17c156614ac3a8cdb6086b1962c3f473",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sat Feb 18 19:06:03 2017 +0000",
+  "message": "Corrigiendo-errores-contributors.js"
+},
+{
+  "commit": "de128318e9dedfd7172122f4ff08033f1aceb2c4",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sat Feb 18 19:04:22 2017 +0000",
+  "message": "Modificando-scripts"
+},
+{
+  "commit": "9936731460cc23db4286a585335241561b2790f6",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sat Feb 18 19:03:26 2017 +0000",
+  "message": "Corrigiendo-errores"
+},
+{
+  "commit": "4045491ea7b9afdd61dc02dc73564ca94c43c85c",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sat Feb 18 19:00:28 2017 +0000",
+  "message": "Modificando-contributors.js"
+},
+{
+  "commit": "eb2e203ab60bcd89cf25c26d56a00bbc17e60928",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sat Feb 18 18:45:46 2017 +0000",
+  "message": "Modificando-contributors.js"
+},
+{
+  "commit": "a5c665de1428f9941b13925fa2cf336820303e60",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sat Feb 18 18:39:48 2017 +0000",
+  "message": "Merge-pull-request-30-from-ozzrocker95-master"
+},
+{
+  "commit": "0a2bbe5f969cbc3db927a2a968321f7d412c390c",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sat Feb 18 18:38:37 2017 +0000",
+  "message": "A-adiendo-contributors.js"
+},
+{
+  "commit": "85d7b882de0591720ddec038dce5a3fd7a1b0adc",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sat Feb 18 10:58:14 2017 +0000",
+  "message": "Update-README.md"
+},
+{
+  "commit": "b0759a11534d47575203b039846ee29d2fd280cb",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Thu Feb 16 21:45:00 2017 +0000",
+  "message": "Merge-pull-request-29-from-nestor-gm-master"
+},
+{
+  "commit": "b656736f7955abdd7f73e15ce144d542353d0b26",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Thu Feb 16 21:43:24 2017 +0000",
+  "message": "A-adiendo-dependencia"
+},
+{
+  "commit": "7da016a04144350b085f21c1e7c8cd60a91d88bc",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Thu Feb 16 21:35:58 2017 +0000",
+  "message": "A-adiendo-deploy-wiki.js"
+},
+{
+  "commit": "d11dbe2319d51c8929c539493da53d851416f6fd",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Tue Feb 14 15:19:06 2017 +0000",
+  "message": "Update-README.md"
+},
+{
+  "commit": "1db129682d9e7492bbc7298d4f9616acbf567226",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Tue Feb 14 13:06:47 2017 +0000",
+  "message": "Update-README.md"
+},
+{
+  "commit": "73e56047c07e602238161a3b00d563d03e976daa",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Tue Feb 14 13:00:09 2017 +0000",
+  "message": "Merge-pull-request-28-from-Chinegua-master"
+},
+{
+  "commit": "cc504b238b843aefab55bff82292d84dd01ce907",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Tue Feb 14 12:59:39 2017 +0000",
+  "message": "A-adiendo-la-opcion-default-en-gulp"
+},
+{
+  "commit": "b2ba6373d9fdd9980543fcc72143bf3842528b09",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Tue Feb 14 12:47:33 2017 +0000",
+  "message": "Merge-pull-request-27-from-Chinegua-master"
+},
+{
+  "commit": "5ecfe19d51a262b4cbead0a47f6ada896b716221",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Tue Feb 14 12:46:45 2017 +0000",
+  "message": "A-adiendo-build-en-gulpfile"
+},
+{
+  "commit": "c128e5714e00cbdd2890fedadcd9c0f2a452da1c",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Tue Feb 14 12:38:46 2017 +0000",
+  "message": "Merge-pull-request-26-from-Chinegua-master"
+},
+{
+  "commit": "4e931587460c6219bbcf29a2522b5cb5291cc66e",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Tue Feb 14 12:37:58 2017 +0000",
+  "message": "Modificando-deploy-gitbook-squirrel"
+},
+{
+  "commit": "6ad6051fb4fb2c6bab7eb1ac74fa03e32fe87289",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Mon Feb 13 10:32:00 2017 +0000",
+  "message": "Merge-pull-request-22-from-Chinegua-master"
+},
+{
+  "commit": "61cb3cfc2e031e7faebdeb4725594044ed4fe470",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Mon Feb 13 10:31:19 2017 +0000",
+  "message": "Eliminando-.gitignored"
+},
+{
+  "commit": "fffa1538c88048dbd9504039bdad9839d2c4cdb6",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Mon Feb 13 10:30:12 2017 +0000",
+  "message": "A-adiendo-gulp"
+},
+{
+  "commit": "45df256bc627f0c0aa5933b9f871b4e93e14d2f7",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Mon Feb 13 10:29:30 2017 +0000",
+  "message": "A-adiendo-gulp"
+},
+{
+  "commit": "1b33a3ff3ae62379a403eb92fa829f9c237bf653",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Mon Feb 13 10:11:20 2017 +0000",
+  "message": "Merge-pull-request-20-from-ozzrocker95-master"
+},
+{
+  "commit": "8f709169c4876e932fe7f6f3b6d6f62b44d48e73",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Mon Feb 13 10:10:12 2017 +0000",
+  "message": "Modificando-archivos-varios-y-README.md"
+},
+{
+  "commit": "4f692d80edcbceefdfbe4e14d7cc3ed9f5a76090",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 22:30:27 2017 +0000",
+  "message": "Update-README.md"
+},
+{
+  "commit": "5de9c9066fd56c229a7a3184da8aeeb06f6064e2",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 12 22:27:00 2017 +0000",
+  "message": "Merge-pull-request-19-from-Chinegua-master"
+},
+{
+  "commit": "284b3a17f7c86fd5900b480fe7ce15c6f9c38b98",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 12 22:26:24 2017 +0000",
+  "message": "A-adiendo-Readme"
+},
+{
+  "commit": "7bf9fc594bfe00dab87f90b44c0c8a62711432b8",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 22:24:29 2017 +0000",
+  "message": "Merge-pull-request-18-from-nestor-gm-master"
+},
+{
+  "commit": "085748641fd2e3381f129bf5909187399041b9b3",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 22:24:23 2017 +0000",
+  "message": "Merge-branch-master-into-master"
+},
+{
+  "commit": "28ddade4081f7c23efc9a12ccbf3316c47d31ebc",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 22:23:35 2017 +0000",
+  "message": "Funcionando-en-heroku-D"
+},
+{
+  "commit": "0983ee77c77191baa098e5da2f6f70d92c7c04d3",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 22:20:33 2017 +0000",
+  "message": "probando"
+},
+{
+  "commit": "3bc803162fd8844f8df62881f4adc1841cdecf51",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 12 22:16:33 2017 +0000",
+  "message": "Merge-pull-request-17-from-Chinegua-master"
+},
+{
+  "commit": "124288749c0b43aff2845dcd181ddef26653472d",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 12 22:15:13 2017 +0000",
+  "message": "A-adiendo-generate-gitbook"
+},
+{
+  "commit": "982ad05221e9b25a1bcf0f05f901809e08afa708",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 20:44:03 2017 +0000",
+  "message": "Merge-pull-request-14-from-nestor-gm-master"
+},
+{
+  "commit": "956fbc55262995eb51459b232628d2568155ab0a",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 20:43:35 2017 +0000",
+  "message": "Arreglando-error"
+},
+{
+  "commit": "06302a18d4ef0ceed24b18434c8b5124bfab077a",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 20:41:08 2017 +0000",
+  "message": "Arreglado"
+},
+{
+  "commit": "cfba69aa7d6c9265088f3f6f488fef0ee47f44a2",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 20:40:23 2017 +0000",
+  "message": "Modificado-gitignore"
+},
+{
+  "commit": "beac2f309d1502795f47fc9ba8f6f659409fec50",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 20:38:56 2017 +0000",
+  "message": "Desplegado-gitbook-en-Heroku"
+},
+{
+  "commit": "38c1cb1b47cb44c76d3c0082764f4b8b4a20461a",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 20:13:51 2017 +0000",
+  "message": "Merge-pull-request-13-from-nestor-gm-master"
+},
+{
+  "commit": "4e2f2c7bddea159dc8eb5baf1d1096205706265c",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 20:12:35 2017 +0000",
+  "message": "Reescribiendo-el-gitbook"
+},
+{
+  "commit": "61b99a81dae0aadc42bfb95f0577e2d12e708e8e",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 12 20:11:45 2017 +0000",
+  "message": "Merge-pull-request-12-from-Chinegua-master"
+},
+{
+  "commit": "a075d7e0f990816ebe2e4784d1cce698bd9d6a16",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 12 20:11:37 2017 +0000",
+  "message": "Merge-branch-master-into-master"
+},
+{
+  "commit": "bc3d0ad8b29652d774f342da0e9120ee77ad6742",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 12 20:10:35 2017 +0000",
+  "message": "A-adiendo-deploy-gitbook.js"
+},
+{
+  "commit": "df261393eda1c5dec487744b19d8809cbfa875f2",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 20:08:15 2017 +0000",
+  "message": "Merge-pull-request-11-from-nestor-gm-master"
+},
+{
+  "commit": "532388764a119f88d8444b4cfaac9a8888b14926",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 20:01:37 2017 +0000",
+  "message": "A-adido-Procfile"
+},
+{
+  "commit": "0884fdc24c28ec828f6cd3779e7948f748e505d9",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 20:00:36 2017 +0000",
+  "message": "Modificado-package.json-para-Heroku"
+},
+{
+  "commit": "2ff7ff27a31b8d59126fae12c38f9fb02871c964",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 19:56:08 2017 +0000",
+  "message": "Arreglando-error"
+},
+{
+  "commit": "07852befced66de1acd8fee41224103d72cf57c7",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 19:52:02 2017 +0000",
+  "message": "A-adido-server.js"
+},
+{
+  "commit": "058dce8f9c4445780740bb5b9bfde1adb3f6cf15",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 19:02:30 2017 +0000",
+  "message": "Merge-pull-request-1-from-nestor-gm-master"
+},
+{
+  "commit": "f2dafb285a07b052e31e19493f37eee8d213f91d",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 12 19:01:57 2017 +0000",
+  "message": "Quitando-scripts-losh"
+},
+{
+  "commit": "0411aac8c4e794b57707d244cef44ea2e64cfdcb",
+  "author": "Steven Enten <steven@enten.fr>",
+  "date": "Wed Jul 29 21:21:03 2015 +0200",
+  "message": "First-commit"
+}]
 

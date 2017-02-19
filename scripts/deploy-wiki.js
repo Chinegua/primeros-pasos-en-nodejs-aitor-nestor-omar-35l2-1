@@ -10,4 +10,4 @@ git()
   .add('.')
   .commit("Deploy Wiki")
   .addRemote('origin', REPO)
-  .push(['--force', 'origin', 'master:master'], function () { });
+  .push(['--force', 'origin', 'master:master'], () => { });
