@@ -17,6 +17,7 @@ r2.question('Introduzca la opcion (m)odificar, (v)er ', (answer2) => {
 
   case 'm':
             rl.question('Introduzca la version ', (answer) => {
+
                 let content = mod.readFileSync("../package.json");
                 let jsonContent = JSON.parse(content);
                 console.log("Version actual: "+jsonContent.version)

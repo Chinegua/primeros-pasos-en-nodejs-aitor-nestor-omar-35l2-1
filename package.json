@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "express": "^4.14.1",
+    "gh-pages": "^0.3.1",
     "gitbook-cli": "^0.3.6",
     "gulp-gh-pages": "^0.5.4",
     "gulp-shell": "^0.5.2",

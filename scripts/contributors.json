@@ -1,4 +1,118 @@
 [{
+  "commit": "dddf063d2eaa80664c667cdb4f7ab54fb5e42e04",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 21:56:37 2017 +0000",
+  "message": "Merge-pull-request-34-from-ozzrocker95-master"
+},
+{
+  "commit": "bc6ffbfb4e62eb42fa0e9bc15756fdf71270f64c",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 21:52:54 2017 +0000",
+  "message": "Finalizando-README.md"
+},
+{
+  "commit": "a4bdd5daf4f46362c0a5a2494303db76dd48a09e",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 21:42:33 2017 +0000",
+  "message": "Modificando-archivos-varios"
+},
+{
+  "commit": "20a8e6693754aeb8730a054f1235b1a3afc82796",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 21:19:54 2017 +0000",
+  "message": "Modificando-README.md"
+},
+{
+  "commit": "1fff0aa4d4abb4ab3c5b69a16f2868f376957cc9",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 21:14:01 2017 +0000",
+  "message": "Modificando-archivos"
+},
+{
+  "commit": "ba377733f50098542d810d80a83ee577c161af46",
+  "author": "Chinegua <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 15:17:16 2017 +0000",
+  "message": "Merge-pull-request-33-from-nestor-gm-master"
+},
+{
+  "commit": "d88fda03051a16fb8e37305735da08cdc72af866",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 19 15:15:06 2017 +0000",
+  "message": "Corrigiendo-error-script-version"
+},
+{
+  "commit": "b7b3602da0f7c161d7a7cf764e5606bca1d039d2",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 19 15:13:03 2017 +0000",
+  "message": "Mejorando-script-version"
+},
+{
+  "commit": "9625c3fc070ca0599759fd56bf8bee0d8ae6acbf",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 19 15:02:09 2017 +0000",
+  "message": "Arreglando-script-version"
+},
+{
+  "commit": "a70a4dc6c8c3043a6c465f3a9fe3eb1c103178f1",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 19 14:25:59 2017 +0000",
+  "message": "Cambiando-script-version.js"
+},
+{
+  "commit": "ac334731e2c9e3912c9e541ddebbd4460fcfe704",
+  "author": "Nestor <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 19 13:32:44 2017 +0000",
+  "message": "Subiendo-script-version"
+},
+{
+  "commit": "671b139b8447d2fb8491fd7042a0554b884daa44",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 13:13:09 2017 +0000",
+  "message": "Modificando-readme.md"
+},
+{
+  "commit": "6e4dbeda25fe0932ea18697c758b7ea4e5c1ef83",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 13:02:42 2017 +0000",
+  "message": "Modificando-scripts-con-funcion-flecha"
+},
+{
+  "commit": "be4f00a7549cf63cd7b29731159a7e085146e6ec",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 13:01:58 2017 +0000",
+  "message": "Modificando-scripts-con-funcion-flecha"
+},
+{
+  "commit": "17a4cc2d0c47b8bd7542a27af1accf96aa34ca83",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 13:01:13 2017 +0000",
+  "message": "Modificando-scripts-con-funcion-flecha"
+},
+{
+  "commit": "9ca49763e24c5e3fe962e62be462853cde833f8d",
+  "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
+  "date": "Sun Feb 19 13:00:30 2017 +0000",
+  "message": "Modificando-scripts-con-funcion-flecha"
+},
+{
+  "commit": "6bf81752eb68826618c9f3bf60f4e1cb54795d4d",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 19 12:59:19 2017 +0000",
+  "message": "Actualizado-README.md"
+},
+{
+  "commit": "7f8c83bf3a381bab8387d6f0601bb5024a061cfc",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 19 12:54:47 2017 +0000",
+  "message": "Actualizado-README.md"
+},
+{
+  "commit": "c9b689d94c834445ea491c6b23fa2de5bcc2b2d6",
+  "author": "nestor-gm <alu0100812503@ull.edu.es>",
+  "date": "Sun Feb 19 12:52:38 2017 +0000",
+  "message": "Update-deploy-wiki.js"
+},
+{
   "commit": "29081dba80b43e3f1ec36c80d22d3c5b88b5f1af",
   "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
   "date": "Sun Feb 19 12:52:04 2017 +0000",
