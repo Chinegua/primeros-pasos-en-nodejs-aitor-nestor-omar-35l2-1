@@ -40,6 +40,6 @@ r2.question('Introduzca la opcion (m)odificar, (v)er ', (answer2) => {
     break;
 
   }
-  r2.close();
+  
 
 });
