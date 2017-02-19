@@ -23,3 +23,9 @@ Enlace al gitbook desplegdo en [Heroku](http://dsipractica2.herokuapp.com/)
 * [Aitor Bernal Falcón](https://chinegua.github.io/)
 * [Néstor García Moreno](https://nestor-gm.github.io/)
 * [Omar Mendo Mesa](https://ozzrocker95.github.io/)
+
+### Funciones de los scripts JS
+
+Hemos hecho un port de los scripts realizados en Shell a JS, con el fin de tener unos scripts más sencillos de comprender y universales
+
+#### contributors.js

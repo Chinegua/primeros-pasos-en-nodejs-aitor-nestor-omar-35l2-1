@@ -1,4 +1,10 @@
 [{
+  "commit": "c574ac8b7fa1a0778eef517d3d632a0b57515107",
+  "author": "Omar Mendo <omen.mesa20@gmail.com>",
+  "date": "Sun Feb 19 00:02:58 2017 +0000",
+  "message": "Eliminando-archivos-sobrantes"
+},
+{
   "commit": "5554c71562e6257e01d05bf15df5c221c2174236",
   "author": "Aitor Bernal <alu0100830064@ull.edu.es>",
   "date": "Sat Feb 18 23:31:06 2017 +0000",
