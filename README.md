@@ -39,9 +39,6 @@ let mod = require('fs')
 Hacemos uso de dos módulos, [Child Process](https://nodejs.org/api/child_process.html) y [FS](https://nodejs.org/api/fs.html), para conseguir recoger la ejecución del comando **git log** por shell, (*inicializado en el script git-log.js*), además de usar operaciones varías con ficheros.
 
 ```javascript
-mod.writeFile("contributors.json", stdout, function(err){
-  if(err){
-    return console.log(err);
-  }
-let content = mod.readFileSync("contributors.json");
+child =exec ('node git-log.js',function(error,stdout,stderr)
 ```
+Se realiza la ejecución del script **git-log.js**, el cual realiza la ejecución del comando *git log* en shell, tomando todos los commit de los usuarios contribuyentes en el proyecto.
