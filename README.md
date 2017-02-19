@@ -33,7 +33,7 @@ let mod = require('fs')
 Hacemos uso de dos módulos, [Child Process](https://nodejs.org/api/child_process.html) y [FS](https://nodejs.org/api/fs.html), para conseguir recoger la ejecución del comando **git log** por shell, (*inicializado en el script git-log.js*), además de usar operaciones varías con ficheros.
 
 ```javascript
-child =exec ('node git-log.js',function(error,stdout,stderr){
+child =exec ('node git-log.js',(error,stdout,stderr) => {
 ```
 Se realiza la ejecución del script **git-log.js**, el cual realiza la ejecución del comando *git log* en shell, tomando todos los commit de los usuarios contribuyentes en el proyecto.
 
@@ -43,7 +43,7 @@ let content = mod.readFileSync("contributors.json");
 Se accede al fichero **contributors.json*, donde se aloja toda la información de los commit, para más tarde alojar esta información en el archivo MAINTAINERS (si no está creado, lo crea automáticamente) con un *append*
 
 ```javascript
-mod.appendFile("../MAINTAINERS","<Autor: "+jsonContent[i].author+">\n"+"Last Commit: "+jsonContent[i].date+" ("+jsonContent[i].message+")"+"\n"+" "+"\n", function(err){
+mod.appendFile("../MAINTAINERS","<Autor: "+jsonContent[i].author+">\n"+"Last Commit: "+jsonContent[i].date+" ("+jsonContent[i].message+")"+"\n"+" "+"\n",(err) => {
 ```
 
 ## deploy-gitbook.js
@@ -56,7 +56,7 @@ let ghpages = require('gh-pages')
 En este script necesitamos utilizar dos módulos, [path](https://nodejs.org/api/path.html) y [gh-pages](https://www.npmjs.com/package/gh-pages)
 
 ```javascript
-ghpages.publish(path.join(__dirname,'../_book'),function(err){
+ghpages.publish(path.join(__dirname,'../_book'),(err) => {
 ```
 La parte de codigo anterior se encarga de realizar un *publish* del contenido del directorio **_book**, a la rama *gh-pages*
 
@@ -72,7 +72,7 @@ let exec = require('child_process').exec
 Como concretamos anteriormente, se hace uso del módulo [Child Process](https://nodejs.org/api/child_process.html) para permitir la ejecución de comandos por shell.
 
 ```javascript
-child =exec ('git log --pretty=format:\'{%n  \"commit\": \"%H\",%n  \"author\": \"%aN <%aE>\",%n  \"date\": \"%ad\",%n  \"message\": \"%f\"%n},\' $@ | perl -pe \'BEGIN{print \"[\"}; END{print \"]\n\"}\' | perl -pe \'s/},]/}]/\n\'' ,function(error,stdout,stderr){
+child =exec ('git log --pretty=format:\'{%n  \"commit\": \"%H\",%n  \"author\": \"%aN <%aE>\",%n  \"date\": \"%ad\",%n  \"message\": \"%f\"%n},\' $@ | perl -pe \'BEGIN{print \"[\"}; END{print \"]\n\"}\' | perl -pe \'s/},]/}]/\n\'' ,(error,stdout,stderr) => {
 ```
 Se realiza un **exec** con la ejecución del comando *git log*, con un formateo de la salida a JSON para, como comentabamos anteriormente, que nos resulte mas facil tratar con el.
 
