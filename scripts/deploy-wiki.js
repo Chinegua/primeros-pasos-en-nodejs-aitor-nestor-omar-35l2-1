@@ -1,4 +1,4 @@
-require('shells/global');
+require('shelljs/global');
 let git = require('simple-git')
 let REPO = require("../package.json").repository.wiki
 
