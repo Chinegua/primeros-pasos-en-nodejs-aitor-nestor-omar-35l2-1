@@ -31,12 +31,14 @@ r2.question('Introduzca la opcion (m)odificar, (v)er ', (answer2) => {
                     });
                 });
 
-
+    break;
   case 'v':
 
           const jsonContent = require('../package.json')
           console.log("Version actual: " + jsonContent.version)
+    break;
 
   }
   r2.close();
+
 });
