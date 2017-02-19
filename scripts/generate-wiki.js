@@ -13,8 +13,8 @@ var async = require('async');
 main();
 
 function main() {
-    var input = './txt';
-    var output = './wiki';
+    var input = '../txt';
+    var output = '../wiki';
 
     fs.mkdir(output, function() {
         // if it dir exists already, just override content
@@ -56,4 +56,3 @@ function generateSidebar(config, cb) {
 
     fs.writeFile(config.output, data, cb);
 }
-
