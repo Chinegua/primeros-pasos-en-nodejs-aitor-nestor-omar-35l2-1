@@ -88,7 +88,25 @@ let mod = require('fs')
 const readline = require('readline');
 let jsonfile = require('jsonfile')
 ```
-Para este script, hacemos uso de los módulos [fs](https://nodejs.org/api/fs.html), [readline](https://nodejs.org/api/readline.html) y [jsonfile](https://www.npmjs.com/package/jsonfile)
+Para este script, hacemos uso de los módulos [fs](https://nodejs.org/api/fs.html), [readline](https://nodejs.org/api/readline.html) y [jsonfile](https://www.npmjs.com/package/jsonfile), los cuales nos permiten estar trabajando con diversos archivos *(package.json)*
+
+```javascript
+case 'm':
+            rl.question('Introduzca la version ', (answer) => {
+                let content = mod.readFileSync("../package.json");
+                let jsonContent = JSON.parse(content);
+                console.log("Version actual: "+jsonContent.version)
+                console.log("La version introducida es: "+answer);
+```
+La primera opción permite al usuario poder modificar la versión en el *package.json*, así como posteriormente mostrarle la versión modificada.
+
+```javascript
+case 'v':
+
+          const jsonContent = require('../package.json')
+          console.log("Version actual: " + jsonContent.version)
+```
+La segunda opción del script sería mostrar al usuario la versión actual incluida en el *package.json*
 
 ## git-log.js
 Script que realiza la ejecución del comando por shell **git log**, con el fin de recopilar y mostrar los commit de los contribuyentes del proyecto, para posteriormente pasar su resultado al script **contributors.js**
@@ -96,7 +114,7 @@ Script que realiza la ejecución del comando por shell **git log**, con el fin d
 ```javascript
 let exec = require('child_process').exec
 ```
-Como concretamos anteriormente, se hace uso del módulo [Child Process](https://nodejs.org/api/child_process.html) para permitir la ejecución de comandos por shell.
+Como concretamos anteriormente, se hace uso del módulo [child process](https://nodejs.org/api/child_process.html) para permitir la ejecución de comandos por shell.
 
 ```javascript
 child =exec ('git log --pretty=format:\'{%n  \"commit\": \"%H\",%n  \"author\": \"%aN <%aE>\",%n  \"date\": \"%ad\",%n  \"message\": \"%f\"%n},\' $@ | perl -pe \'BEGIN{print \"[\"}; END{print \"]\n\"}\' | perl -pe \'s/},]/}]/\n\'' ,(error,stdout,stderr) => {
