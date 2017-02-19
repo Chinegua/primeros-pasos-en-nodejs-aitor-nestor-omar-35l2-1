@@ -77,6 +77,18 @@ Desplegamos la wiki a través de git
 
 
 ## generate-gitbook.js
+Script que realiza un *build* en GitBook, es decir, crea el website estático para un libro en GitBook.
+
+```javascript
+let exec = require('child_process').exec
+let child
+```
+En este caso, solo hacemos uso del módulo [child process](https://nodejs.org/api/child_process.html) para poder recoger el resultado de la ejecución del comando por shell **gitbook build**
+
+```javascript
+child =exec ("../node_modules/.bin/gitbook build ../txt ../_book",(error,stdout,stderr)
+```
+Se realiza la ejecución del comando **gitbook build** de todos los archivos *.html de la carpeta **_book**
 
 ## generate-wiki.js
 
