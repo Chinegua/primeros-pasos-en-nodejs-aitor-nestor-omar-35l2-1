@@ -53,3 +53,31 @@ mod.appendFile("../MAINTAINERS","<Autor: "+jsonContent[i].author+">\n"+"Last Com
 ```
 
 ## deploy-gitbook.js
+Script que tiene como función, como su nombre indica, desplegar un libro en GitBook, formado por los archivos *.html* alojados en la carpeta [txt](https://github.com/ozzrocker95/primeros-pasos-en-nodejs-aitor-nestor-omar-35l2/tree/master/txt)
+
+```javascript
+let path = require('path')
+let ghpages = require('gh-pages')
+```
+En este script necesitamos utilizar dos módulos, [path](https://nodejs.org/api/path.html) y [gh-pages](https://www.npmjs.com/package/gh-pages)
+
+```javascript
+ghpages.publish(path.join(__dirname,'../_book'),function(err){
+```
+Este script lo único que realiza es hacer un *publish* del contenido del directorio **_book**, alojado en la rama de *gh-pages*
+
+## deploy-wiki.js
+## generate-gitbook.js
+## generate-wiki.js
+## git-log.js
+Script que realiza la ejecución del comando por shell **git log**, con el fin de recopilar y mostrar los commit de los contribuyentes del proyecto, para posteriormente pasar su resultado al script **contributors.js**
+
+```javascript
+let exec = require('child_process').exec
+```
+Como concretamos anteriormente, se hace uso del módulo [Child Process](https://nodejs.org/api/child_process.html) para permitir la ejecución de comandos por shell.
+
+```javascript
+child =exec ('git log --pretty=format:\'{%n  \"commit\": \"%H\",%n  \"author\": \"%aN <%aE>\",%n  \"date\": \"%ad\",%n  \"message\": \"%f\"%n},\' $@ | perl -pe \'BEGIN{print \"[\"}; END{print \"]\n\"}\' | perl -pe \'s/},]/}]/\n\'' ,function(error,stdout,stderr){
+```
+Se realiza un **exec** con la ejecución del comando *git log*, con el formato que se desea mostrar el resultado de la ejecución.
